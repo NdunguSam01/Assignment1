@@ -1,12 +1,11 @@
-const input = document.getElementById('name');
-function resultingFunction()
+results()
 {
-if (input.value ==="") 
-    {
-    alert("Please enter your name!"); 
-    }
-else 
-    {
-    document.getElementById('final').innerHTML = 'Hello '+ input.value + ' ,welcome to the bootcamp!'; 
-    }
+  if (document.getElementById('name').valuegit==="") 
+  {
+  alert("Please enter your name!");  
+  }
+  else
+  {
+    document.getElementById('final').innerHTML='Hello'+document.getElementById('name').value+ ' ,welcome to the bootcamp!';
+  }
 }
